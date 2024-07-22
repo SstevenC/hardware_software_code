@@ -34,7 +34,7 @@ def exit_program():
 ############################
 def main():
     done_selecting = 'false'
-    while done_selecying != 'true':
+    while done_selecting != 'true':
         clear_screen()
         get_selection = display_menu (get_menu())
         done_selecting = eval (get_selection+"()")
