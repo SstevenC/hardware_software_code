@@ -1,10 +1,10 @@
 def binary_to_decimal(number):
-    result = ''
+    result = 0
     if len(number) > 0:
-        power=len(str(number)) - 1 # determine greatest power
+        power=len(str(number)) - 1
         for num in str(number):
             result += int(num) * 2 ** power
-            power-= 1       # decrease by 1
+            power-= 1
         return result
 
 def main():
